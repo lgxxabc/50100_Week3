@@ -16,7 +16,7 @@ public class Box {
 
 	public void printBox() {
 		for (int row = 1; row <= size; row++) {
-			for (int star = 1; star <= row; star++) {
+			for (int star = 1; star <= size; star++) {
 				System.out.print("*");
 			}
 			System.out.println();
