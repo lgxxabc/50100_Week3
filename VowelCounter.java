@@ -39,6 +39,8 @@ public class VowelCounter {
 				"o: " + o + "\n" +
 				"u: " + u + "\n" +
 				"other: " + other);
+		
+		scan.close();
 	}
 
 }

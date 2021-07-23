@@ -8,7 +8,6 @@ import java.util.Scanner;
 public class AgeGuess3 {
 
 	public static void main(String[] args) {
-		String name;
 		int ageGuess;
 		int age;
 		
@@ -32,6 +31,8 @@ public class AgeGuess3 {
 		}
 		
 		System.out.println("Congratulations! The age was: " + age);
+		
+		scan.close();
 	}
 
 }
